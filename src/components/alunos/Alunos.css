@@ -1,0 +1,108 @@
+/* Estilos Gerais */
+.container {
+  padding: 20px;
+  background-color: #070850;
+}
+
+h1 {
+  color: #61dafb;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Tabela */
+.table {
+  width: 100%; /* Garante que a tabela ocupe toda a largura disponível */
+  border-collapse: collapse; /* Remove espaços entre bordas das células */
+}
+
+.table thead th {
+  background-color: #282c34;
+  color: #fff; /* Cor do texto em branco */
+  padding: 10px; /* Adiciona espaçamento interno */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.table tbody td {
+  padding: 10px; /* Adiciona espaçamento interno nas células */
+}
+
+.table tbody td img {
+  width: 100px;
+  height: auto;
+  display: block; /* Garante que a imagem não tenha espaços extras */
+}
+
+.table tbody td .btn {
+  margin-right: 5px;
+}
+
+/* Modal */
+.modal-header {
+  background-color: #7d7ff87a;
+  padding: 15px; /* Adiciona espaçamento interno */
+  border-bottom: 1px solid #ccc; /* Adiciona uma borda inferior */
+}
+
+.modal-header .modal-title {
+  color: #050505;
+  text-align: center;
+  flex-grow: 1;
+  font-weight: bold;
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Formulário */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.input-group-text {
+  background-color: #e9ecef;
+  border: 1px solid #ccc; /* Adiciona uma borda para melhor visibilidade */
+  padding: 10px; /* Adiciona espaçamento interno */
+}
+
+.input-group-text .icon {
+  margin-right: 5px;
+}
+
+/* Botões */
+.btn-primary {
+  margin-top: 20px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff; /* Garante a cor do texto no botão */
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff; /* Garante a cor do texto no botão */
+}
+
+/* Imagem no Formulário */
+.image-preview {
+  display: flex;
+  align-items: center;
+}
+
+.image-preview img {
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.image-preview span {
+  margin-left: 10px;
+}

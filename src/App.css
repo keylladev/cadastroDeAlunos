@@ -1,0 +1,50 @@
+  .App {
+    position: relative; /* Necessário para posicionar o pseudo-elemento corretamente */
+    background: linear-gradient(to bottom, #a799ce85, #d867a560), /* Degradê de roxo para cinza */
+                url('https://barcelonasuperficies.com.br/wp-content/uploads/2017/03/como-montar-uma-escola-infantil-completa-740x370.jpg');
+    background-size: cover, 90%; /* O degradê cobre todo o elemento, e a imagem é dimensionada */
+    background-position: center, center; /* Centraliza ambos */
+    background-repeat: no-repeat, no-repeat; /* Evita a repetição de ambos */
+    min-height: 100vh; /* Garante que a altura mínima cubra a viewport */
+    padding: 20px; /* Adiciona algum espaço interno, se necessário */
+    color: white; /* Ajusta a cor do texto para contraste, se necessário */
+  }
+
+  .App h1 {
+    font-family: 'kanit', sans-serif; /* Define a fonte 'Roboto' */
+    color: #000000; /* Define a cor do texto */
+    font-size: 4.5em; /* Define o tamanho da fonte */
+    text-shadow: 2px 2px 4px rgb(247, 246, 246); /* Adiciona uma sombra ao texto */
+    margin-top: 50px; /* Adiciona margem superior para mover o título para baixo */
+}
+  
+  .nav-links {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000; /* Cor de fundo da navegação */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Padding interno */
+  }
+  
+  .nav-link {
+    color: #0c0c0c; /* Cor do texto */
+    margin-right: 15px; /* Espaço entre os links */
+    transition: color 0.3s; /* Transição suave para hover */
+    font-weight: bold;
+  }
+    
+  
+  .nav-link:hover {
+    color: #050505; /* Cor do texto ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    
+  }
+  
+  .nav-link:visited {
+    color: #0c0c0c; /* Cor do texto após ser visitado */
+    
+  }
+  
+  .nav-link:active {
+    color: #0c0c0c; /* Cor do texto ao ser clicado */
+    text-shadow: 2px 2px 4px rgb(247, 246, 246); 
+  }
